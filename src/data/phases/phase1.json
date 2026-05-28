@@ -1,0 +1,303 @@
+[
+  {
+    "phase_id": 1,
+    "phase_name": "Phase 1: Foundation Work",
+    "questions": [
+      {
+        "id": 1,
+        "scenario": "CF-1, CF-2 အတွက် မြေကျင်းတူးနေစဉ် မိုးသည်းထန်စွာ ရွာသွန်းပြီး ကျင်းထဲ ရေများဝင်သွားပါသည်။ အလုပ်ဆက်လုပ်ရန် ခက်ခဲနေပါသည်။",
+        "planned_budget": 35,
+        "planned_days": 3,
+        "options": [
+          {
+            "text": "နေသာသည်အထိ စောင့်မည်။ (ရာသီဥတုအရ ၃ ရက်ခန့် ဆက်တိုက် ရွာနိုင်သည်)",
+            "budget_impact": 6,
+            "schedule_impact": 6,
+            "quality_impact": 2,
+            "safety_impact": 3
+          },
+          {
+            "text": "ရေစုပ်စက်များ ချက်ချင်းငှားမည်။ (စက်ငှားခနှင့် ဆီဖိုး ထပ်ကုန်မည်)",
+            "budget_impact": 20,
+            "schedule_impact": 3,
+            "quality_impact": 0,
+            "safety_impact": -2
+          },
+          {
+            "text": "ရေအနည်းငယ် ကျန်နေသော်လည်း Lean Concrete ကို ရသလောက် လောင်းမည်။ (အရည်အသွေး ထိခိုက်နိုင်သည်)",
+            "budget_impact": 5,
+            "schedule_impact": 1,
+            "quality_impact": -1,
+            "safety_impact": -1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "scenario": "Lean Concrete လောင်းပြီး၍ ဖောင်ဒေးရှင်းသံဆင်ရန် အသင့်ဖြစ်နေသော်လည်း မှာထားသော သံကားများ ရောက်မလာသေးပါ။",
+        "planned_budget": 50,
+        "planned_days": 4,
+        "options": [
+          {
+            "text": "အလုပ်သမားများကို နားခိုင်းထားမည်။ (အလုပ်သမား လက်မဲ့ခ ပေးရမည်)",
+            "budget_impact": 5,
+            "schedule_impact": 4,
+            "quality_impact": 2,
+            "safety_impact": 4
+          },
+          {
+            "text": "ဈေးကြီးပေး၍ အမြန်သွားဝယ်မည်။ (ပစ္စည်းဖိုးနှင့် သယ်ယူစရိတ် ထပ်ကုန်မည်)",
+            "budget_impact": 14,
+            "schedule_impact": 1,
+            "quality_impact": -2,
+            "safety_impact": -1
+          },
+          {
+            "text": "တိုင်အတွက် လိုအပ်မည့် သံများကို အရင်ဖြတ်တောက် ကွေးဆန့်ခိုင်းမည်။ (လုပ်ငန်းခွင် နေရာကျပ်သွားနိုင်သည်)",
+            "budget_impact": 3,
+            "schedule_impact": 3,
+            "quality_impact": 1,
+            "safety_impact": -2
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "scenario": "Foundation အတွက် Ready-mixed Concrete ကား ရောက်လာချိန်တွင် အလုပ်သမား အင်အား မလုံလောက်၍ ကွန်ကရစ်ချချိန် ကြာမြင့်ပြီး စတင်ခဲလာမည်ကို စိုးရိမ်ရပါသည်။",
+        "planned_budget": 70,
+        "planned_days": 4,
+        "options": [
+          {
+            "text": "ကားပေါ်မှ ကွန်ကရစ်များကို ရေထည့်ပြီး (Adding Water) လောင်းမည်။ (Strength လုံးဝကျသွားမည်)",
+            "budget_impact": 5,
+            "schedule_impact": 1,
+            "quality_impact": -1,
+            "safety_impact": 1
+          },
+          {
+            "text": "မနိုင်သော ကွန်ကရစ်များကို စွန့်ပစ်ပြီး နောက်ကားကို အချိန်ရွှေ့မှာမည်။ (ကွန်ကရစ်ဖိုး အလဟဿ ဖြစ်မည်)",
+            "budget_impact": 30,
+            "schedule_impact": 2,
+            "quality_impact": -2,
+            "safety_impact": 1
+          },
+          {
+            "text": "Site အတွင်းရှိ အခြားလက်သမား၊ ပန်းရံများကို အရေးပေါ် ခေါ်ကူခိုင်းမည်။ (အရေးပေါ် Bonus ပေးရမည်)",
+            "budget_impact": 10,
+            "schedule_impact": 2,
+            "quality_impact": 4,
+            "safety_impact": 0
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "scenario": "ဘက်ဟိုး (Excavator) ဆရာ၏ အမှားကြောင့် CF-3 Footing ကျင်းသည် Drawing ပါ အနက်ထက် ၁ ပေခွဲခန့် ပိုနက်သွားပါသည်။",
+        "planned_budget": 20,
+        "planned_days": 2,
+        "options": [
+          {
+            "text": "တူးထုတ်ထားသော မြေကြီးများကို ပြန်ဖို့ပြီး ပြန်ထောင်းမည်။ (Settlement ဖြစ်နိုင်သည်)",
+            "budget_impact": 3,
+            "schedule_impact": 4,
+            "quality_impact": 4,
+            "safety_impact": 4
+          },
+          {
+            "text": "ပိုသွားသည့် အနက်စာကို Lean Concrete အပြည့်လောင်းထည့်မည်။ (ငွေအတော် ကုန်မည်)",
+            "budget_impact": 20,
+            "schedule_impact": 2,
+            "quality_impact": 0,
+            "safety_impact": 5
+          },
+          {
+            "text": "သဲ (သို့) Hardcore များ ဝယ်ဖို့ပြီး ရေလောင်းကာ သေချာပြန်သိပ်မည်။ (ကုန်ကျစရိတ် အသင့်အတင့်ရှိမည်)",
+            "budget_impact": 16,
+            "schedule_impact": 2,
+            "quality_impact": 10,
+            "safety_impact": 8
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "scenario": "ခြံစည်းရိုးဘေးရှိ Footing များ တူးနေစဉ် အိမ်နီးချင်းခြံထဲသို့ မြေကြီးများ ကျသဖြင့် အိမ်ရှင်မှ လာရောက်ရန်တွေ့ပြီး လုပ်ငန်းရပ်ိုင်းရန် ပြောဆိုပါသည်။",
+        "planned_budget": 25,
+        "planned_days": 3,
+        "options": [
+          {
+            "text": "ဂရုမစိုက်ဘဲ အလုပ်ကိုသာ မြန်မြန်ပြီးအောင် ဆက်တူးမည်။ (ပြဿနာ ကြီးသွားနိုင်သည်)",
+            "budget_impact": 4,
+            "schedule_impact": 1,
+            "quality_impact": -16,
+            "safety_impact": -5,
+            "hidden_flag": "future_owner_complaint"
+          },
+          {
+            "text": "အလုပ်ခေတ္တရပ်ပြီး သွပ်ပြားများဖြင့် အခိုင်အမာ အရင်ကာရံမည်။ (ပစ္စည်းဖိုးကုန်ပြီး အချိန်ဆိုင်းသွားမည်)",
+            "budget_impact": 12,
+            "schedule_impact": 3,
+            "quality_impact": 3,
+            "safety_impact": 4
+          },
+          {
+            "text": "တောင်းပန်စကားပြောပြီး ညနေတိုင်း အလုပ်သမားများကို အချိန်ပိုကြေးပေး၍ ဝင်ရှင်းလင်းပေးမည်။",
+            "budget_impact": 6,
+            "schedule_impact": 4,
+            "quality_impact": -1,
+            "safety_impact": 5
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "scenario": "MAT Foundation အတွက် သံသမားများက Development Length ထားရန်မေ့ပြီး သံချောင်းများကို တိုတိုလေးတွေ ဖြတ်ပစ်လိုက်ပါသည်။",
+        "planned_budget": 45,
+        "planned_days": 3,
+        "options": [
+          {
+            "text": "တိုသွားသည့် သံချောင်းများကို Welding (ဂဟေ) ဆော်ပြီး အရှည်ပြန်ဆက်မည်။",
+            "budget_impact": 7,
+            "schedule_impact": 2,
+            "quality_impact": -1,
+            "safety_impact": 4
+          },
+          {
+            "text": "ဖြတ်မှားသော သံများကို ဖယ်ထားပြီး၊ အသစ်ပြန်ထုတ်၍ ပြန်ဖြတ်မည်။ (သံအလေအလွင့် များမည်)",
+            "budget_impact": 27,
+            "schedule_impact": 4,
+            "quality_impact": 11,
+            "safety_impact": 10
+          },
+          {
+            "text": "ရှိသည့်အရှည်အတိုင်းသာ တွဲချည်လိုက်ပြီး ကွန်ကရစ် အမြန်လောင်းပစ်မည်။ (Risk အလွန်ကြီးသည်)",
+            "budget_impact": 3,
+            "schedule_impact": 0,
+            "quality_impact": -10,
+            "safety_impact": -12,
+            "hidden_flag": "future_mep_failure"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "scenario": "Foundation ကွန်ကရစ် လောင်းနေစဉ် ကွန်ကရစ်ကား ၃ စီးခန့် ကျန်သေးချိန်တွင် Site ထဲရှိ တစ်လုံးတည်းသော Vibrator Motor လောင်သွားပါသည်။",
+        "planned_budget": 40,
+        "planned_days": 3,
+        "options": [
+          {
+            "text": "သံချောင်းများ၊ ဝါးလုံးများဖြင့်သာ ထိုးသိပ်ပြီး ဆက်လောင်းမည်။ (Honeycomb သေချာပေါက်ဖြစ်မည်)",
+            "budget_impact": 13,
+            "schedule_impact": 3,
+            "quality_impact": 12,
+            "safety_impact": 6
+          },
+          {
+            "text": "အနီးနားရှိ အခြား Site တစ်ခုမှ Vibrator တစ်လုံးကို အမြန်သွားငှားမည်။",
+            "budget_impact": 7,
+            "schedule_impact": 2,
+            "quality_impact": 0,
+            "safety_impact": 5
+          },
+          {
+            "text": "လောင်းခြင်းကို ရပ်နားကာ နောက်နေ့မှ Vibrator အသစ်ဝယ်ကာ ဆက်လောင်းမည်။ (Joint ဖြတ်ရမည်)",
+            "budget_impact": 15,
+            "schedule_impact": 3,
+            "quality_impact": -1,
+            "safety_impact": 0
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "scenario": "ညဘက် မိုးရွာချသဖြင့် ကျင်းထဲရှိ သံချောင်းများပေါ်တွင် ရွှံ့များ ကပ်ကုန်ပါသည်။ မနက် ၁၀ နာရီတွင် ကွန်ကရစ်ကားများ ရောက်လာပါမည်။",
+        "planned_budget": 30,
+        "planned_days": 2,
+        "options": [
+          {
+            "text": "ကိစ္စမရှိဟု ယူဆကာ ထိုအတိုင်းသာ ကွန်ကရစ်လောင်းမည်။ (Bonding မမိနိုင်ပါ)",
+            "budget_impact": 5,
+            "schedule_impact": 2,
+            "quality_impact": 0,
+            "safety_impact": -1
+          },
+          {
+            "text": "ကားများကို အချိန်ရွှေ့ပြီး Pressure Washer ဖြင့် သံချောင်းများကို ဆေးကြောမည်။",
+            "budget_impact": 9,
+            "schedule_impact": 2,
+            "quality_impact": 11,
+            "safety_impact": 8
+          },
+          {
+            "text": "ကွန်ကရစ်ကို နောက်နေ့မှ လောင်းရန်ဖျက်လိုက်ပြီး သံများကို သေချာပြန်ဆေးကြောမည်။",
+            "budget_impact": 16,
+            "schedule_impact": 3,
+            "quality_impact": 5,
+            "safety_impact": 8
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "scenario": "လုပ်ငန်းခွင်ရှင်းလင်းစဉ် အလုပ်သမားတစ်ဦး သံချေးတက်နေသော သံမှိုစူးမိပြီး ဒဏ်ရာအတော်လေး နက်သွားပါသည်။",
+        "planned_budget": 10,
+        "planned_days": 2,
+        "options": [
+          {
+            "text": "Site ထဲရှိ ဆေးသေတ္တာမှ ဆေးထည့်ပေးပြီး အလုပ်ဆက်လုပ်ခိုင်းမည်။ (မေးခိုင်အန္တရာယ်ရှိသည်)",
+            "budget_impact": 2,
+            "schedule_impact": 0,
+            "quality_impact": -14,
+            "safety_impact": -14,
+            "hidden_flag": "future_owner_complaint"
+          },
+          {
+            "text": "ဆေးခန်းသို့ ချက်ချင်းပို့ကာ မေးခိုင်ဆေးထိုးပေးပြီး နားရက် (၂) ရက် ပေးလိုက်မည်။",
+            "budget_impact": 3,
+            "schedule_impact": 3,
+            "quality_impact": -2,
+            "safety_impact": -1
+          },
+          {
+            "text": "ပေါ့ဆမှုကြောင့်ဟုဆိုကာ အလုပ်မှထုတ်ပစ်လိုက်မည်။ (အခြားအလုပ်သမားများ မကျေမနပ်ဖြစ်နိုင်သည်)",
+            "budget_impact": 3,
+            "schedule_impact": 5,
+            "quality_impact": 5,
+            "safety_impact": 0
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "scenario": "Lift Pit (ဓာတ်လှေကားကျင်း) တူးရာတွင် မြေအောက်ရေ (Groundwater) အထွက်များနေသဖြင့် ရေစုပ်ထုတ်၍ မနိုင်ဖြစ်နေပါသည်။",
+        "planned_budget": 42.5,
+        "planned_days": 4,
+        "options": [
+          {
+            "text": "Dewatering System သေချာတပ်ဆင်ပြီးမှ ဆက်လုပ်မည်။ (ကုန်ကျစရိတ်နှင့် အချိန်များမည်)",
+            "budget_impact": 28,
+            "schedule_impact": 3,
+            "quality_impact": -9,
+            "safety_impact": -5,
+            "hidden_flag": "future_crack_risk"
+          },
+          {
+            "text": "အပိုရေစုပ်စက်များ ထပ်ငှားပြီး အတင်းစုပ်ထုတ်ကာ ရသလို အမြန်လောင်းမည်။",
+            "budget_impact": 15,
+            "schedule_impact": 1,
+            "quality_impact": -8,
+            "safety_impact": -15,
+            "hidden_flag": "future_owner_complaint"
+          },
+          {
+            "text": "ကျင်းထဲ သဲအကြမ်းများ အရင်ခင်းပြီးမှ အပေါ်က ကွန်ကရစ်လောင်းမည်။ (Quality မကောင်းနိုင်ပါ)",
+            "budget_impact": 9,
+            "schedule_impact": 2,
+            "quality_impact": 3,
+            "safety_impact": 1
+          }
+        ]
+      }
+    ]
+  }
+]
