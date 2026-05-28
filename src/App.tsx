@@ -180,7 +180,7 @@ function App() {
               <div className="bg-slate-800 rounded p-4">
                 <p className="text-slate-400 text-sm mb-1">Schedule Status</p>
                 <p className={`text-xl font-bold ${gameState.timeInDays <= TARGET_SCHEDULE ? 'text-blue-400' : 'text-orange-400'}`}>
-                  {gameState.timeInDays} days
+                  {gameState.timeInDays} / {TARGET_SCHEDULE} days
                 </p>
                 <p className="text-xs text-slate-500 mt-1">
                   Target: {TARGET_SCHEDULE} days | {scheduleStatus}
