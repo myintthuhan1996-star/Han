@@ -3,8 +3,19 @@
 import { GameState } from './types';
 
 // Target values for project performance
-export const TARGET_BUDGET = 1992.5; // Target budget in Lakhs
-export const TARGET_SCHEDULE = 177; // Target schedule in days
+import { allQuestions } from '../data/phases';
+
+export const TARGET_BUDGET =
+  allQuestions.reduce(
+    (sum, q) => sum + q.planned_budget,
+    0
+  );
+
+export const TARGET_SCHEDULE =
+  allQuestions.reduce(
+    (sum, q) => sum + q.planned_days,
+    0
+  );
 
 export const INITIAL_GAME_STATE: GameState = {
   budget: TARGET_BUDGET, // Starting budget equals target budget
