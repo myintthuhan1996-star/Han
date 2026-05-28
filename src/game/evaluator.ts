@@ -68,11 +68,11 @@ export function calculateFinalEvaluation(state: GameState): FinalEvaluation {
 
   // Calculate overall score (weighted average + balance bonus - penalties)
   const baseScore = (
-    (profitPerformance * 0.25) +   // 25% weight: Profit matters
-    (schedulePerformance * 0.20) + // 20% weight: Schedule matters
-    (qualityFinal * 0.30) +        // 30% weight: Quality is crucial
-    (safetyFinal * 0.25)           // 25% weight: Safety is crucial
-  );
+  (profitPerformance * 0.30) +
+  (schedulePerformance * 0.30) +
+  (qualityFinal * 0.20) +
+  (safetyFinal * 0.20)
+);
 
   const score = Math.max(0, Math.min(100,
     baseScore + balanceBonus - riskPenalty - delayPenalty
