@@ -20,17 +20,20 @@ export function calculateFinalEvaluation(state: GameState): FinalEvaluation {
   // 100% = stayed at target budget
   // >100% = saved money (impressive!)
   // <100% = went over budget
-  const profitPerformance = profit >= 0
-    ? Math.min(100, (profit / TARGET_BUDGET) * 100)
+  const profitPerformance =
+  state.budget >= 0
+    ? Math.min(100, (state.budget / TARGET_BUDGET) * 100)
     : 0; // If negative budget, performance is 0
 
   // Schedule Performance: How close to target schedule (lower is better)
   // 100% = finished exactly on target
   // <100% = finished early (bonus points)
   // >100% = finished late (penalty)
-  const schedulePerformance = state.timeInDays <= TARGET_SCHEDULE
-    ? Math.min(100, (TARGET_SCHEDULE / Math.max(state.timeInDays, 1)) * 100)
-    : Math.max(0, 100 - ((state.timeInDays - TARGET_SCHEDULE) / TARGET_SCHEDULE) * 50);
+  const schedulePerformance =
+  state.timeInDays <= TARGET_SCHEDULE
+    ? 100
+    : Math.max(0, 100 - ((state.timeInDays - TARGET_SCHEDULE) * 2));
+    
 
   // Quality and Safety final scores
   const qualityFinal = state.qualityScore;
