@@ -290,7 +290,7 @@ function App() {
             title="Time"
             value={gameState.timeInDays}
             unit="days"
-            color={isBehindSchedule(gameState) ? 'text-orange-400' : 'text-blue-400'}
+            color={gameState.timeInDays > TARGET_SCHEDULE ? 'text-orange-400' : 'text-blue-400'}
             status={scheduleStatus}
             icon={
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
